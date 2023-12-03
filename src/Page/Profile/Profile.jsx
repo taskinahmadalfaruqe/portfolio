@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 const Profile = () => {
     return (
         <div>
-            Hello
+            <Link to='/'>Hello From Home</Link>
         </div>
     );
 };

@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     container: {
       center: true,
@@ -17,10 +18,16 @@ export default {
     },
 
     extend: {
+      backgroundImage: {
+        'BG1': "url('../bg.jpg')",
+        'BG2': "url('../bgtwo.jpg')",
+      },
       colors: {
         lightbg: '#F3F6F6',
         darkbg: '#111111',
         lightdarkbg: '#1D1D1D',
+        whiteColor: '#fff',
+        primaryColor: '#ef4060'
       },
 
     },

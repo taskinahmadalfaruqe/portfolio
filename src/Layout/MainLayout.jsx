@@ -1,12 +1,13 @@
-import { Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 
 const MainLayout = () => {
     return (
         <div className="common-bg h-[100vh] grid gap-5">
-            <div>
-            {/* bg-[#F3F6F6] */}
-                <nav className="py-2 sm:py-5  dark:bg-black lg:py-[50px] lg:bg-transparent dark:lg:bg-transparent mb-10 bg-red-700">
+
+            <div className="">
+
+                <nav className="py-2 sm:py-5 bg-[#F3F6F6]  dark:bg-black lg:py-[50px] lg:bg-transparent dark:lg:bg-transparent mb-10">
                     <div className="container grid grid-cols-[1fr_1fr] justify-center items-center ">
 
                         <div className="logo">
@@ -29,10 +30,37 @@ const MainLayout = () => {
                     </div>
                 </nav>
             </div>
-            <div className="grid-cols-4">
-                hello
+
+
+            <div className="left col-span-12  lg:col-span-4 relative">
+                <div className="rounded-3xl lg:rounded-t-3xl mt-[120px] bg-white dark:bg-[#111111] lg:px-1 xl:px-2.5 lg:sticky lg:top-[130px]">
+
+
+                    <div className=" mb-5 h-[200px] w-[200px] xl:w-60 xl:h-60  m-auto -translate-y-[120px] rounded-2xl overflow-hidden bg-red-400">
+                        <img src="Hello" alt="hi" />
+                    </div>
+
+                    <div className="text-center -mt-[120px]">
+                        <h1 className="mt-3 mb-3 lg:mt-6 lg:mb-6 text-3xl xl:text-4xl font-semibold dark:text-[#fff]">
+                            Taskin Ahmad AL Faruqe</h1>
+                        <h3
+                            className="mt-0 mb-5 lg:mt-0 lg:mb-6 px-3 py-2 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] rounded-lg dark:text-[#A6A6A6] ">
+                            MERN Stack Developer</h3>
+                    </div>
+
+
+                    <div className="socialicon mb-5 lg:mb-10">
+                        <ul className=" flex justify-center items-center gap-2 xl:gap-4">
+                            <li className="text-red-500">
+                               <a href="Facebook">Facebook</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <div className="grid-cols-8">
+
+            <div className="grid-cols-8 bg-red-500">
                 <Outlet></Outlet>
             </div>
         </div>

@@ -21,6 +21,8 @@ export default {
       backgroundImage: {
         'BG1': "url('../bg.jpg')",
         'BG2': "url('../bgtwo.jpg')",
+        'common-bg': "linear-gradient(to right, #fa5252, #dd2476)",
+        'common-bg-hover': "linear-gradient(to left, #fa5252, #dd2476)",
       },
       colors: {
         lightbg: '#F3F6F6',

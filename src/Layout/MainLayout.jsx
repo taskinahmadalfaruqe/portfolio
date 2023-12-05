@@ -36,7 +36,7 @@ const MainLayout = () => {
     }
 
     return (
-        <div className="bg-BG1 dark:bg-BG2 dark:text-red-400 w-[100vw] h-[100vh] transition-all duration-300 bg-center bg-cover bg-no-repeat font-popins">
+        <div className="bg-BG1 dark:bg-BG2 transition-all duration-300 bg-center bg-cover bg-no-repeat">
 
             {/* 1ST NAV BARR LOGO AND DARK MOODE HANDELAER */}
             <nav className="py-2 sm:py-5   lg:py-[30px] lg:bg-transparent dark:lg:bg-transparent mb-10">
@@ -49,7 +49,7 @@ const MainLayout = () => {
                     <div className=" text-right flex justify-end">
                         <div className=" flex gap-5 border border-primaryColor p-1 px-3 rounded-[30px]">
 
-                            <div className=" hidden w-12 h-12 rounded-full overflow-hidden border border-primaryColor pt-2 bg-primaryColor lg:flex justify-center items-center">
+                            <div className=" hidden w-12 h-12 rounded-full overflow-hidden border border-primaryColor pt-2 bg-common-bg lg:flex justify-center items-center">
                                 <img src={pic} alt="Picture Image" />
                             </div>
                             <div
@@ -70,8 +70,14 @@ const MainLayout = () => {
                 </div>
             </nav>
 
-            <Profile></Profile>
-            <Outlet></Outlet>
+            <div className="container grid  grid-cols-12 gap-4 lg:gap-8 2xl:gap-10">
+                <div className="left col-span-12  lg:col-span-4 relative">
+                    <Profile></Profile>
+                </div>
+                <div>
+                    <Outlet></Outlet>
+                </div>
+            </div>
         </div>
     );
 };

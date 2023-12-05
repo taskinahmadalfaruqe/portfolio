@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import logo from '/logo.webp'
 import pic from '/MYPIC.png'
+import Navbar from "../Components/Navbar/Navbar";
 
 const html = document.documentElement
 
@@ -36,7 +37,7 @@ const MainLayout = () => {
     }
 
     return (
-        <div className="bg-BG1 dark:bg-BG2 transition-all duration-300 bg-center bg-cover bg-no-repeat">
+        <div className="bg-BG1 dark:bg-BG2 transition-all duration-300 bg-center bg-cover bg-no-repeat relative text-darkbg dark:text-whiteColor">
 
             {/* 1ST NAV BARR LOGO AND DARK MOODE HANDELAER */}
             <nav className="py-2 sm:py-5   lg:py-[30px] lg:bg-transparent dark:lg:bg-transparent mb-10">
@@ -71,10 +72,11 @@ const MainLayout = () => {
             </nav>
 
             <div className="container grid  grid-cols-12 gap-4 lg:gap-8 2xl:gap-10">
-                <div className="left col-span-12  lg:col-span-4 relative">
+                <div className="left col-span-12  lg:col-span-4  sticky">
                     <Profile></Profile>
                 </div>
-                <div>
+                <div className="right col-span-12 lg:col-span-8 mt-[30px] lg:mt-[120px] mb-0">
+                    <Navbar></Navbar>
                     <Outlet></Outlet>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const HomePage = () => {
     return (
         <div className="home bg-whiteColor dark:bg-darkbg rounded-xl">

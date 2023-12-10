@@ -15,7 +15,7 @@ const Navbar = () => {
                     <NavLink
                         to={'/'}
                         className={({ isActive }) => isActive ?
-                            'bg-common-bg flex justify-center items-center gap-2 flex-col w-20 p-5 rounded-xl text-whiteColor font-semibold transition-all duration-500'
+                            ' transition-all duration-500 bg-common-bg flex justify-center items-center gap-2 flex-col w-20 p-5 rounded-xl text-whiteColor font-semibold '
                             :
                             'w-20 bg-lightbg dark:bg-lightdarkbg dark:text-white hover:bg-common-bg transition-all duration-500 cursor-pointer flex flex-col justify-center items-center p-5 rounded-xl hover:text-whiteColor font-semibold text-darkbg gap-2'}>
                         <FaHome className="transition-all duration-150"></FaHome>

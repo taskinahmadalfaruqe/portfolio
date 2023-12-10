@@ -32,8 +32,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="text">
                                     <h3 className="text-xl mb-3 font-semibold">Web Development</h3>
-                                    <p className=" text-[17px] pb-2 m-0 leading-8">Lorem ipsum dolor sit amet,
-                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                    <p className=" text-[17px] pb-2 m-0 leading-8">Web development merges code (HTML, CSS, JavaScript) to build and maintain websites and applications. Front-end concerns user interface; back-end manages servers and databases. It encompasses both design and functionality on the internet.</p>
                                 </div>
                             </li>
 
@@ -49,8 +48,7 @@ const HomePage = () => {
                                 </div>
                                 <div className="text">
                                     <h3 className="text-xl mb-3 font-semibold">Web Design</h3>
-                                    <p className=" text-[17px] pb-2 m-0 leading-8">Lorem ipsum dolor sit amet,
-                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                    <p className=" text-[17px] pb-2 m-0 leading-8">Web design crafts the visual and interactive elements of websites, emphasizing aesthetics, layout, and user experience. It blends artistic creativity with technical skill, focusing on usability and aesthetic appeal to create engaging online experiences.</p>
                                 </div>
                             </li>
                             <li

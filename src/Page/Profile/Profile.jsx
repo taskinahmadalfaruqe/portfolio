@@ -18,7 +18,7 @@ const Profile = () => {
                     Taskin Ahmad Al Faruqe</h1>
                 <h3
                     className="mt-0 mb-5 lg:mt-0 lg:mb-6 px-3 py-2 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] rounded-lg dark:text-[#A6A6A6] ">
-                    Frontend Developer</h3>
+                    Web Developer</h3>
             </div>
 
             <div className="socialicon mb-5 lg:mb-10">

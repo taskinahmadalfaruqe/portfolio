@@ -1,6 +1,6 @@
 const ResumePage = () => {
     return (
-        <div className=" resume bg-whiteColor rounded-xl dark:bg-darkbg">
+        <div className=" resume bg-whiteColor rounded-t-xl dark:bg-darkbg">
             <div className=" p-3 pb-0 lg:p-7 lg:pb-0">
                 <h2
                     className="text-4xl font-bold mb-3 lg:mb-6 dark:text-white relative after:content-[''] after:absolute md:after:w-[200px] after:h-[4px] after:bg-common-bg after:top-[50%] after:left-[38%] after:lg:left-[250px] after:-translate-x-[50%]">
@@ -19,30 +19,22 @@ const ResumePage = () => {
                                         </path>
                                     </svg>
                                 </span>
-                                <h4 className="text-4xl dark:text-white font-medium"> Education</h4>
+                                <h4 className="text-[33px] dark:text-white font-medium">Education</h4>
                             </div>
                             <div className="items">
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-[#fff4f4] dark:bg-transparent">
                                     <span
-                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2021-2023</span>
-                                    <h3 className="text-xl dark:text-white"> Ph.D in Horriblensess </h3>
-                                    <p className="dark:text-[#b7b7b7]">ABC University, Los Angeles, CA</p>
+                                        className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2018-2023</span>
+                                    <h3 className="text-xl dark:text-white">Diploma In Engineering</h3>
+                                    <p className="dark:text-[#b7b7b7]">Tangail Polytechnic Institute</p>
                                 </div>
 
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-[#fff4f4] dark:bg-transparent">
-                                    <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019 -
-                                        Present</span>
-                                    <h3 className="text-xl dark:text-white"> Sr. Software Tester </h3>
-                                    <p className="dark:text-[#b7b7b7]">Google Inc.</p>
-                                </div>
-
-                                <div
-                                    className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-[#fff4f4] dark:bg-transparent">
-                                    <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2021</span>
-                                    <h3 className="text-xl dark:text-white"> Best Developer </h3>
-                                    <p className="dark:text-[#b7b7b7]">University Of Melbourne, NA</p>
+                                    <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2018</span>
+                                    <h3 className="text-xl dark:text-white">SSC- Secondery School Certificate</h3>
+                                    <p className="dark:text-[#b7b7b7]">Adarsha High School, Birampur</p>
                                 </div>
                             </div>
                         </div>
@@ -58,25 +50,19 @@ const ResumePage = () => {
                                         </path>
                                     </svg>
                                 </div>
-                                <h4 className="text-4xl dark:text-white font-medium">Experience</h4>
+                                <h4 className="text-[33px] dark:text-white font-medium">Learning Experience</h4>
                             </div>
                             <div
                                 className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-[#eef5fa] dark:bg-transparent">
-                                <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2017-2021</span>
-                                <h3 className="text-xl dark:text-white"> Computer Science </h3>
-                                <p className="dark:text-[#b7b7b7]">Imperialize Technical Institute</p>
+                                <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2023</span>
+                                <h3 className="text-xl dark:text-white">WEB Development</h3>
+                                <p className="dark:text-[#b7b7b7]">Programming Hero, Bangladesh</p>
                             </div>
                             <div
                                 className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-[#eef5fa] dark:bg-transparent">
-                                <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2015-2017</span>
-                                <h3 className="text-xl dark:text-white"> Cr. Web Developer </h3>
-                                <p className="dark:text-[#b7b7b7]">ib-themes ltd.</p>
-                            </div>
-                            <div
-                                className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2 bg-[#eef5fa] dark:bg-transparent">
-                                <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2008</span>
-                                <h3 className="text-xl dark:text-white"> Best Writter </h3>
-                                <p className="dark:text-[#b7b7b7]">Online Typodev Soluation Ltd.</p>
+                                <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">2023</span>
+                                <h3 className="text-xl dark:text-white">Industraiel Attetchment</h3>
+                                <p className="dark:text-[#b7b7b7]">Web Design At Creative IT, Bangladesh</p>
                             </div>
                         </div>
                     </div>
@@ -93,62 +79,104 @@ const ResumePage = () => {
                                     className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Web
                                     Design</span>
                                 <span
-                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">80%</span>
-                            </div>
-                        </div>
-                        <div className=" mb-7">
-                            <div className="flex justify-between py-1">
-                                <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Mobile
-                                    App </span>
-                                <span
                                     className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">95%</span>
                             </div>
                         </div>
                         <div className=" mb-7">
                             <div className="flex justify-between py-1">
                                 <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Illustrator</span>
+                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Web Development</span>
                                 <span
-                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
+                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">90%</span>
                             </div>
                         </div>
                         <div className=" mb-7">
                             <div className="flex justify-between py-1">
                                 <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Photoshope</span>
+                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">MERN Stake Development</span>
+                                <span
+                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">85%</span>
+                            </div>
+                        </div>
+                        <div className=" mb-7">
+                            <div className="flex justify-between py-1">
+                                <span
+                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Full Stack Development</span>
                                 <span
                                     className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">75%</span>
                             </div>
                         </div>
                     </div>
                     <div className="col-span-1">
-                        <h4 className="text-4xl dark:text-white font-semibold mb-8">Knowledges</h4>
-                        <div className="flex gap-3 flex-wrap">
+                        <h4 className="text-4xl  dark:text-white font-semibold mb-8">Knowledges</h4>
+                        <div className="flex gap-1 flex-wrap ">
                             <button
-                                className="resume-btn text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Digital
-                                Design</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Web Design
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Marketing</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Web Development
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Social
-                                Media</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                React JS
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Print</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Node JS
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Time
-                                Management</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Express JS
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Flexibility</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                MongoDB
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Print</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Tailwind CSS
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Time
-                                Management</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Daisy UI
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Flexibility</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Bootstrap
+                            </button>
                             <button
-                                className="resume-btn text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">Print</button>
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                SCSS
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">MaterialUI</button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Payment
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                HTML
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                CSS
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Javascript
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Leader Ship
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Time Management
+                            </button>
+
                         </div>
                     </div>
                 </div>

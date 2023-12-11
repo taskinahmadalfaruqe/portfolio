@@ -29,7 +29,8 @@ export default {
         darkbg: '#111111',
         lightdarkbg: '#1D1D1D',
         whiteColor: '#fff',
-        primaryColor: '#ef4060'
+        primaryColor: '#ef4060',
+        secondoryColor: '#FA5252',
       },
 
     },

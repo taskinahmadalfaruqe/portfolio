@@ -24,25 +24,33 @@ const Profile = () => {
             <div className="socialicon mb-5 lg:mb-10">
                 <div className=" flex justify-center items-center gap-2 xl:gap-4">
                     <div className=" ">
-                        <Link to={''}
+                        <Link
+                            target='_blank'
+                            to={"https://www.facebook.com/taskinahmadalfaruqe"}
                             className="text-[#3b5998] text-2xl flex justify-center items-center w-9 h-9 xl:w-12 xl:h-12 rounded-md bg-lightbg p-2.5 hover:bg-common-bg hover:text-[#fff] transition-all duration-300 bg-light dark:bg-lightdarkbg">
                             <FaFacebookF></FaFacebookF>
                         </Link>
                     </div>
                     <div className=" ">
-                        <Link to={''}
+                        <Link
+                            target='_blank'
+                            to={''}
                             className="text-[#1773EA] text-2xl flex justify-center items-center w-9 h-9 xl:w-12 xl:h-12 rounded-md bg-lightbg p-2.5 hover:bg-common-bg hover:text-[#fff] transition-all duration-300 bg-light dark:bg-lightdarkbg">
                             <FaXTwitter></FaXTwitter>
                         </Link>
                     </div>
                     <div className=" ">
-                        <Link to={''}
+                        <Link
+                            target='_blank'
+                            to={"https://github.com/taskinahmadalfaruqe"}
                             className="text-darkbg dark:text-whiteColor text-2xl flex justify-center items-center w-9 h-9 xl:w-12 xl:h-12 rounded-md bg-lightbg p-2.5 hover:bg-common-bg hover:text-[#fff] transition-all duration-300 bg-light dark:bg-lightdarkbg">
                             <FaGithub></FaGithub>
                         </Link>
                     </div>
                     <div className=" ">
-                        <Link to={''}
+                        <Link
+                            target='_blank'
+                            to={"https://www.linkedin.com/in/taskin-ahmad-al-faruqe-a53a96288"}
                             className="text-[#0e76a8] text-2xl flex justify-center items-center w-9 h-9 xl:w-12 xl:h-12 rounded-md bg-lightbg  p-2.5 hover:bg-common-bg hover:text-[#fff] transition-all duration-300 bg-light dark:bg-lightdarkbg">
                             <FaLinkedinIn></FaLinkedinIn>
                         </Link>
@@ -113,11 +121,14 @@ const Profile = () => {
 
             <div className="text-center">
                 <button>
-                    <Link to='/'
-                        className=" flex justify-center items-center gap-3 w-auto  py-3 px-10 rounded-[35px] text-whiteColor text-2xl font-bold mb-5 hover:bg-common-bg bg-common-bg-hover transition-all duration-200">
-                        <MdOutlineDownload></MdOutlineDownload>
-                        <span className=" font-OSWALD">Download CV</span>
-                    </Link>
+                    <a
+                        href="/Taskin(WEB-Developer).pdf" 
+                        download="Taskin(WEB-Developer).pdf" 
+                        className="flex justify-center items-center gap-3 w-auto py-3 px-10 rounded-[35px] text-whiteColor text-2xl font-bold mb-5 hover:bg-common-bg bg-common-bg-hover transition-all duration-200"
+                    >
+                        <MdOutlineDownload />
+                        <span>Download CV</span>
+                    </a>
                 </button>
             </div>
 

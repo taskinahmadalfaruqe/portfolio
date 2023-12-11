@@ -7,56 +7,59 @@ const ProjectPage = () => {
                 Projects</h2>
             <ul className="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12">
                 <li className="text-[#FA5252] mr-4 md:mx-4">All</li>
-                <li className="fillter-btn mr-4 md:mx-4">Video</li>
-                <li className="fillter-btn mr-4 md:mx-4">Web Design</li>
-                <li className="fillter-btn ml-0 mr-4 md:mx-4">Logo</li>
-                <li className="fillter-btn  ">Graphic Design</li>
+                <li className="fillter-btn ml-0 mr-4 md:mx-4">MERN Stack</li>
+                <li className="fillter-btn ">Full Stack</li>
             </ul>
-            <div className="items flex gap-5">
-                <div className="flex justify-center items-center h-[100vh] w-[100%] text-4xl text-pink-700">
-                    <h2>This Page Is Under Development</h2>
-                </div>
-                {/* <div className="left_items">
+            <div >
+                <div className="items flex gap-5 pb-5">
                     <div
-                        className="item bg-[#fff0f0] dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col">
+                        className="item bg-lightbg dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col flex-1">
                         <div className="image">
-                            <img src="d" alt="d" />
+                            <img src={'https://i.ibb.co/F3Cm7SM/04.jpg'} alt="Haven management" className="rounded-md h-44 w-[100%]" />
                         </div>
                         <div className="text">
                             <p
+                                className="py-5 text-[25px] font-normal text-gray-lite block dark:text-[#A6A6A6]">
+                                Haven Management
+                            </p>
+                            <p
                                 className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6] mb-4">
-                                Web Development
+                                This Project is made for house rent. An owner can rent his house by apparent available ability, making notice, Taking rent, and playing all essential roles.
                             </p>
                             <h3>
-                                <a href="#"
-                                    className="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                    Haven
-                                    </a>
+                                <button href="https://haven-management.web.app"
+                                    className="font-medium cursor-pointer text-xl duration-300 transition text-secondoryColor mt-2">
+                                    Live Link
+                                </button>
                             </h3>
                         </div>
                     </div>
-                </div>
-                <div className="right_items">
-                    <div
-                        className="item bg-[#fff0f0] dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col">
-                        <div className="image">
-                            <img src="Image/work01.webp" alt="Image" className="rounded-sm" />
-                        </div>
-                        <div className="text">
-                            <p
-                                className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6] mb-4">
-                                MERN
-                            </p>
-                            <h3>
-                                <a href="#"
-                                    className="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2">
-                                        Study Hub
-                                    </a>
-                            </h3>
-                        </div>
 
+
+                    <div
+                        className="item bg-lightbg dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col flex-1">
+                        <div className="image">
+                            <img src={'https://i.ibb.co/vLkG8D1/study.jpg'} alt="Haven management" className="rounded-md h-44 w-[100%]" />
+                        </div>
+                        <div className="text">
+                            <p
+                                className="py-5 text-[25px] font-normal text-gray-lite block dark:text-[#A6A6A6]">
+                                Study Hub
+                            </p>
+                            <p
+                                className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6] mb-4">
+                                This Project is made for Students. A Teacher submits an assignment and student do their task. After finishing the task they submit it and the teacher checks it and gives feedback..
+                            </p>
+                            <h3>
+                                <button href="https://breezy-recess.surge.sh"
+                                    className="font-medium cursor-pointer text-xl duration-300 transition text-secondoryColor mt-2">
+                                    Live Link
+                                </button>
+                            </h3>
+                        </div>
                     </div>
-                </div> */}
+
+                </div>
             </div>
         </div>
     );

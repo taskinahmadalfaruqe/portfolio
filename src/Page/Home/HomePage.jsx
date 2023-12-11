@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const HomePage = () => {
     return (
-        <div className="home bg-whiteColor dark:bg-darkbg rounded-xl">
+        <div className="home bg-whiteColor dark:bg-darkbg rounded-t-xl">
             <div className="p-3 pb-0 lg:p-7">
                 <h2
                     className="text-4xl font-bold mb-3 lg:mb-6 dark:text-white relative after:content-[''] after:absolute md:after:w-[200px] after:h-[4px] after:bg-common-bg after:top-[50%] after:left-[42%] after:lg:left-[300px] after:-translate-x-[50%]">
@@ -50,6 +50,7 @@ const HomePage = () => {
                                     <p className=" text-[17px] pb-2 m-0 leading-8">Web design crafts the visual and interactive elements of websites, emphasizing aesthetics, layout, and user experience. It blends artistic creativity with technical skill, focusing on usability and aesthetic appeal to create engaging online experiences.</p>
                                 </div>
                             </li>
+
                             <li
                                 className=" flex gap-3  lg:gap-5  p-2 lg:p-5 bg-yellow-50 rounded-2xl  dark:border-lightdarkbg dark:border-[3px] dark:bg-transparent">
                                 <div className="icon w-8">
@@ -65,6 +66,7 @@ const HomePage = () => {
                                     <p className=" text-[17px] pb-2 m-0 leading-8">MERN stack: MongoDB (database), Express.js (backend), React (frontend), Node.js (runtime). Entirely JavaScript-based, it streamlines full-stack web app development, ensuring a unified language and smooth data flow across layers for creating robust, scalable applications.</p>
                                 </div>
                             </li>
+
                             <li
                                 className=" flex gap-3  lg:gap-5  p-2 lg:p-5 bg-purple-100 rounded-2xl  dark:border-lightdarkbg dark:border-[3px] dark:bg-transparent">
                                 <div className="icon w-8">
@@ -80,6 +82,7 @@ const HomePage = () => {
                                     <p className=" text-[17px] pb-2 m-0 leading-8">Full-stack development merges front-end and back-end skills, covering client and server software, databases, and servers for complete web app creation. Developers manage all stages, from UI design to server upkeep, ensuring seamless app functionality throughout the stack.</p>
                                 </div>
                             </li>
+
                         </ul>
                     </div>
                 </section>

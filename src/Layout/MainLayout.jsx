@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Profile from "../Page/Profile/Profile";
 import Navbar from "../Components/Navbar/Navbar";
 import SingleNavBars from "../Components/SingleNavbars/SingleNavBars";
+import Footer from "../Components/Footer/Footer";
 
 
 const MainLayout = () => {
@@ -27,6 +28,7 @@ const MainLayout = () => {
 
                     {/* ALL CHILDREAN  */}
                     <Outlet></Outlet>
+                    <Footer></Footer>
                 </div>
             </div>
         </div>

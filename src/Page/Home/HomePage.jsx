@@ -1,4 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
+import css from '/public/css.png'
+import bootstrap from '/public/Bootsrap.png'
+import express from '/public/express.png'
+import firebase from '/public/firebase.png'
+import HTML from '/public/HTML.png'
+import JavaScript from '/public/JavaScript.png'
+import mongo from '/public/mongo.png'
+import node from '/public/node.png'
+import react from '/public/react.png'
+import sass from '/public/sass.png'
+import tailwind from '/public/tailwind.png'
+
 const HomePage = () => {
     return (
         <div className="home bg-whiteColor dark:bg-darkbg rounded-t-xl">
@@ -89,8 +101,18 @@ const HomePage = () => {
 
                 <div className="client_list mt-10">
                     <h2 className="text-3xl font-bold mb-6">Technology That I Used!</h2>
-                    <div className="slider p-5  bg-lightbg rounded-2xl dark:bg-lightdarkbg">
-
+                    <div className="slider p-5  bg-lightbg rounded-2xl dark:bg-lightdarkbg flex gap-5 justify-center items-center flex-wrap">
+                        <img src={HTML} alt="HTML" />
+                        <img src={css} alt="CSS" />
+                        <img src={bootstrap} alt="bootstrap" />
+                        <img src={tailwind} alt="tailwind" />
+                        <img src={JavaScript} alt="JavaScript" />
+                        <img src={react} alt="react" />
+                        <img src={node} alt="node" />
+                        <img src={express} alt="express" />
+                        <img src={mongo} alt="mongo" />
+                        <img src={sass} alt="sass" />
+                        <img src={firebase} alt="firebase" />
                     </div>
                 </div>
             </div>

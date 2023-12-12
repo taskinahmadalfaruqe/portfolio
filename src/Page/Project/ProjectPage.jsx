@@ -11,7 +11,7 @@ const ProjectPage = () => {
                 <li className="fillter-btn ">Full Stack</li>
             </ul>
             <div >
-                <div className="items flex gap-5 pb-5">
+                <div className="items flex gap-5 pb-5 flex-wrap">
                     <div
                         className="item bg-lightbg dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col flex-1">
                         <div className="image">

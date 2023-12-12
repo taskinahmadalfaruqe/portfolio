@@ -121,14 +121,14 @@ const Profile = () => {
 
             <div className="text-center">
                 <button>
-                    <a
-                        href="/Taskin(WEB-Developer).pdf" 
-                        download="Taskin(WEB-Developer).pdf" 
+                    <Link
+                        target='_blank'
+                        to="https://drive.google.com/file/d/1ecqDGnmBMcmPbOyuWsZnmaznF9gVyW26/view?usp=sharing"
                         className="flex justify-center items-center gap-3 w-auto py-3 px-10 rounded-[35px] text-whiteColor text-2xl font-bold mb-5 hover:bg-common-bg bg-common-bg-hover transition-all duration-200"
                     >
                         <MdOutlineDownload />
                         <span>Download CV</span>
-                    </a>
+                    </Link>
                 </button>
             </div>
 

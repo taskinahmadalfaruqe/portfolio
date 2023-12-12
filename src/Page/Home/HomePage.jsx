@@ -1,15 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
-import css from '/public/css.png'
-import bootstrap from '/public/Bootsrap.png'
-import express from '/public/express.png'
-import firebase from '/public/firebase.png'
-import HTML from '/public/HTML.png'
-import JavaScript from '/public/JavaScript.png'
-import mongo from '/public/mongo.png'
-import node from '/public/node.png'
-import react from '/public/react.png'
-import sass from '/public/sass.png'
-import tailwind from '/public/tailwind.png'
+import css from '../../assets/css.png'
+import bootstrap from '../../assets/Bootsrap.png'
+import express from '../../assets/express.png'
+import firebase from '../../assets/firebase.png'
+import HTML from '../../assets/HTML.png'
+import JavaScript from '../../assets/JavaScript.png'
+import mongo from '../../assets/mongo.png'
+import node from '../../assets/node.png'
+import react from '../../assets/react.png'
+import sass from '../../assets/sass.png'
+import tailwind from '../../assets/tailwind.png'
 
 const HomePage = () => {
     return (

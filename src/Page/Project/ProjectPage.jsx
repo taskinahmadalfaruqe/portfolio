@@ -43,7 +43,7 @@ const ProjectPage = () => {
                                         target="_blank"
                                         className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
                                     >
-                                        GitHub Link
+                                        GitHub
                                     </Link>
                                 </button>
                             </div>
@@ -81,7 +81,7 @@ const ProjectPage = () => {
                                         target="_blank"
                                         className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
                                     >
-                                        GitHub Link
+                                        GitHub
                                     </Link>
                                 </button>
                             </div>

@@ -3,13 +3,17 @@ import Profile from "../Page/Profile/Profile";
 import Navbar from "../Components/Navbar/Navbar";
 import SingleNavBars from "../Components/SingleNavbars/SingleNavBars";
 import Footer from "../Components/Footer/Footer";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 const MainLayout = () => {
-   
+
     return (
         <div className="bg-BG1 dark:bg-BG2 transition-all duration-300 bg-center bg-cover bg-no-repeat relative text-darkbg dark:text-whiteColor">
-
+            <MessengerCustomerChat
+                pageId="104235124306928"
+                appId="3393646384189482"
+            />
             {/* 1ST NAV BARR LOGO AND DARK MOODE HANDELAER */}
             <SingleNavBars></SingleNavBars>
 
@@ -22,7 +26,7 @@ const MainLayout = () => {
 
                 {/* RIGHT SIDE PART  */}
                 <div className="right col-span-12 lg:col-span-8 mt-[30px] lg:mt-[120px] mb-0">
-                    
+
                     {/* MAIN NAVBAR  */}
                     <Navbar></Navbar>
 
@@ -31,6 +35,7 @@ const MainLayout = () => {
                     <Footer></Footer>
                 </div>
             </div>
+
         </div>
     );
 };

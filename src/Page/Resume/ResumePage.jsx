@@ -1,3 +1,6 @@
+import ProgressBar from "@ramonak/react-progress-bar";
+import './styles.css'
+
 const ResumePage = () => {
     return (
         <div className=" resume bg-whiteColor rounded-t-xl dark:bg-darkbg">
@@ -71,45 +74,70 @@ const ResumePage = () => {
 
             <div className="dark:bg-darkbg py-12 px-4 sm:px-5 md:px-10 lg:px-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="col-span-1">
+                    <div className="col-span-1 text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
                         <h4 className="text-4xl dark:text-white font-semibold mb-6">Working Skills</h4>
-                        <div className=" mb-7">
-                            <div className="flex justify-between py-1">
-                                <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Web
-                                    Design</span>
-                                <span
-                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">95%</span>
+
+                        <div className=" mb-7 ">
+                            <div className="flex justify-between py-1 mb-2">
+                                Web Design
                             </div>
+                            <ProgressBar
+                                completed={95}
+                                maxCompleted={100}
+                                bgColor={'#ef4060'}
+                                height={'15px'}
+                                barContainerClassName="barcontainer"
+                                transitionDuration={'2s'}
+                                animateOnRender={true}
+                            />
+                        </div>
+
+                        <div className=" mb-7">
+                            <div className="flex justify-between py-1 mb-2">
+                                Front-End Development
+                            </div>
+                            <ProgressBar
+                                completed={90}
+                                maxCompleted={100}
+                                bgColor={'#ef4060'}
+                                height={'15px'}
+                                barContainerClassName="barcontainer"
+                                transitionDuration={'2s'}
+                                animateOnRender={true}
+                            />
                         </div>
                         <div className=" mb-7">
-                            <div className="flex justify-between py-1">
-                                <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Web Development</span>
-                                <span
-                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">90%</span>
+                            <div className="flex justify-between py-1 mb-2">
+                                MERN Stake Development
                             </div>
+                            <ProgressBar
+                                completed={85}
+                                maxCompleted={100}
+                                bgColor={'#ef4060'}
+                                height={'15px'}
+                                barContainerClassName="barcontainer"
+                                transitionDuration={'2s'}
+                                animateOnRender={true}
+                            />
                         </div>
                         <div className=" mb-7">
-                            <div className="flex justify-between py-1">
-                                <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">MERN Stake Development</span>
-                                <span
-                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">85%</span>
+                            <div className="flex justify-between py-1 mb-2">
+                                Full Stack Development
                             </div>
-                        </div>
-                        <div className=" mb-7">
-                            <div className="flex justify-between py-1">
-                                <span
-                                    className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Full Stack Development</span>
-                                <span
-                                    className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">75%</span>
-                            </div>
+                            <ProgressBar
+                                completed={80}
+                                maxCompleted={100}
+                                bgColor={'#ef4060'}
+                                height={'15px'}
+                                barContainerClassName="barcontainer"
+                                transitionDuration={'2s'}
+                                animateOnRender={true}
+                            />
                         </div>
                     </div>
                     <div className="col-span-1">
                         <h4 className="text-4xl  dark:text-white font-semibold mb-8">Knowledges</h4>
-                        <div className="flex gap-1 flex-wrap ">
+                        <div className="flex gap-2 flex-wrap ">
                             <button
                                 className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
                                 Web Design

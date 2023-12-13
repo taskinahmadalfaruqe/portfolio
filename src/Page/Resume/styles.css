@@ -1,0 +1,16 @@
+.barcontainer{
+  background: #F3F6F6;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.dark .barcontainer{
+  background: #1D1D1D;
+  border-radius: 5px;
+}
+.barCompleted{
+}
+.dark .barCompleted{
+}

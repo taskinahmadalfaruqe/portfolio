@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const ProjectPage = () => {
     return (
@@ -26,12 +27,26 @@ const ProjectPage = () => {
                                 className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6] mb-4">
                                 This Project is made for house rent. An owner can rent his house by apparent available ability, making notice, Taking rent, and playing all essential roles.
                             </p>
-                            <h3>
-                                <button href="https://haven-management.web.app"
-                                    className="font-medium cursor-pointer text-xl duration-300 transition text-secondoryColor mt-2">
-                                    Live Link
+                            <div className="w-full flex gap-5 justify-center items-center">
+                                <button className="w-full">
+                                    <Link
+                                        to={'https://haven-management.web.app'}
+                                        target="_blank"
+                                        className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
+                                    >
+                                        Live Link
+                                    </Link>
                                 </button>
-                            </h3>
+                                <button className="w-full">
+                                    <Link
+                                        to={'https://github.com/taskinahmadalfaruqe/havenManagementClient'}
+                                        target="_blank"
+                                        className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
+                                    >
+                                        GitHub Link
+                                    </Link>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -50,12 +65,26 @@ const ProjectPage = () => {
                                 className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6] mb-4">
                                 This Project is made for Students. A Teacher submits an assignment and student do their task. After finishing the task they submit it and the teacher checks it and gives feedback..
                             </p>
-                            <h3>
-                                <button href="https://breezy-recess.surge.sh"
-                                    className="font-medium cursor-pointer text-xl duration-300 transition text-secondoryColor mt-2">
-                                    Live Link
+                            <div className="w-full flex justify-center items-center gap-5">
+                                <button className="w-full">
+                                    <Link
+                                        to={'https://breezy-recess.surge.sh'}
+                                        target="_blank"
+                                        className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
+                                    >
+                                        Live Link
+                                    </Link>
                                 </button>
-                            </h3>
+                                <button className="w-full">
+                                    <Link
+                                        to={'https://github.com/taskinahmadalfaruqe/Study-Hub'}
+                                        target="_blank"
+                                        className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
+                                    >
+                                        GitHub Link
+                                    </Link>
+                                </button>
+                            </div>
                         </div>
                     </div>
 

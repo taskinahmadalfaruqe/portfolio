@@ -9,7 +9,7 @@ import MessengerCustomerChat from 'react-messenger-customer-chat';
 const MainLayout = () => {
 
     return (
-        <div className="bg-BG1 dark:bg-BG2 transition-all duration-300 bg-center bg-cover bg-no-repeat relative text-darkbg dark:text-whiteColor">
+        <div className="bg-BG1 bg-fixed bg-cover dark:bg-BG2 transition-all duration-300 bg-center  bg-no-repeat relative text-darkbg dark:text-whiteColor">
             <MessengerCustomerChat
                 pageId="104235124306928"
                 appId="3393646384189482"

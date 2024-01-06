@@ -10,10 +10,12 @@ import node from '../../assets/node.png'
 import react from '../../assets/react.png'
 import sass from '../../assets/sass.png'
 import tailwind from '../../assets/tailwind.png'
+import ConditionalRender from '../../Components/ConditionalRander'
 
 const HomePage = () => {
     return (
         <div className="home bg-whiteColor dark:bg-darkbg rounded-t-xl">
+            <ConditionalRender></ConditionalRender>
             <div className="p-3 pb-0 lg:p-7">
                 <h2
                     className="text-4xl font-bold mb-3 lg:mb-6 dark:text-white relative after:content-[''] after:absolute md:after:w-[200px] after:h-[4px] after:bg-common-bg after:top-[50%] after:left-[42%] after:lg:left-[300px] after:-translate-x-[50%]">

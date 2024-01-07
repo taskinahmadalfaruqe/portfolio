@@ -3,7 +3,6 @@ import { FaHome } from "react-icons/fa";
 import { FiFileText } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import { GrProjects } from "react-icons/gr";
-import { SiBloglovin } from "react-icons/si";
 import { RiContactsLine } from "react-icons/ri";
 
 const Navbar = () => {
@@ -42,17 +41,6 @@ const Navbar = () => {
                             'w-20 bg-lightbg dark:bg-lightdarkbg dark:text-white hover:bg-common-bg transition-all duration-500 cursor-pointer flex flex-col justify-center items-center p-5 rounded-xl hover:text-whiteColor font-semibold text-darkbg gap-2'}>
                         <GrProjects className="transition-all duration-150"></GrProjects>
                         <span className="transition-all duration-150">Projects</span>
-                    </NavLink>
-                </div>
-                <div className=" ">
-                    <NavLink
-                        to={'/blogs'}
-                        className={({ isActive }) => isActive ?
-                            'bg-common-bg flex justify-center items-center gap-2 flex-col w-20 p-5 rounded-xl text-whiteColor font-semibold transition-all duration-500'
-                            :
-                            'w-20 bg-lightbg dark:bg-lightdarkbg dark:text-white hover:bg-common-bg transition-all duration-500 cursor-pointer flex flex-col justify-center items-center p-5 rounded-xl hover:text-whiteColor font-semibold text-darkbg gap-2'}>
-                        <SiBloglovin className="transition-all duration-150"></SiBloglovin>
-                        <span className="transition-all duration-150">Blogs</span>
                     </NavLink>
                 </div>
                 <div className=" ">

@@ -32,7 +32,6 @@ const MainLayout = () => {
                     {/* MAIN NAVBAR  */}
                     <Navbar></Navbar>
 
-                    
                     {/* ALL CHILDREAN  */}
                     <Outlet></Outlet>
                     <Footer></Footer>

@@ -8,10 +8,9 @@ const Footer = () => {
                     <span
                         className="year">
                     </span> All Rights Reserved by
-                    <a href="#" target="_blank"
+                    <a href='#' target="_blank"
                         className="hover:text-red-500 transition-all deration-300"> Taskin
                     </a>
-                    .
                 </p>
             </div>
         </footer>

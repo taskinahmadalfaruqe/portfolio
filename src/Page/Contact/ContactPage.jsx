@@ -15,8 +15,6 @@ const ContactPage = () => {
         className="text-4xl font-bold mb-3 lg:mb-6 dark:text-white relative after:content-[''] after:absolute md:after:w-[200px] after:h-[4px] after:bg-common-bg after:top-[50%] after:left-[38%] after:lg:left-[250px] after:-translate-x-[50%]">
         Contact
       </h2>
-
-
       <div className="max-w-xl mx-auto p-6 bg-lightbg dark:bg-lightdarkbg rounded-md shadow-md">
         <form onSubmit={handleSubmit}>
           <div className="mb-4">

@@ -144,7 +144,19 @@ const ResumePage = () => {
                             </button>
                             <button
                                 className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Soket IO
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 pt-0 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
                                 Web Development
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Next JS
+                            </button>
+                            <button
+                                className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">
+                                Next UI
                             </button>
                             <button
                                 className="resume-btn hover:bg-common-bg hover:text-whiteColor transition-all duration-150 text-[17px] py-1 px-5 bg-lightbg rounded-lg dark:bg-lightdarkbg">

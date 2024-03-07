@@ -12,7 +12,45 @@ const ProjectPage = () => {
                 <li className="fillter-btn ">Full Stack</li>
             </ul>
             <div >
-                <div className="items flex gap-5 pb-5 flex-wrap">
+                <div className="items grid grid-cols-1 md:grid-cols-2  gap-5 pb-5 ">
+
+                    <div
+                        className="item bg-lightbg dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col flex-1">
+                        <div className="image">
+                            <img src={'https://i.ibb.co/6RngFbP/dream-job-2904780-640.jpg'} alt="Dream Finder" className="rounded-md h-44 w-[100%]" />
+                        </div>
+                        <div className="text">
+                            <p
+                                className="py-5 text-[25px] font-normal text-gray-lite block dark:text-[#A6A6A6]">
+                                Dream Finder
+                            </p>
+                            <p
+                                className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6] mb-4">
+                                This Project is made for Job Hunter. Anyone who needs a job can search for a job or any company that wants some employees can post a job in here.
+                            </p>
+                            <div className="w-full flex gap-5 justify-center items-center">
+                                <button className="w-full">
+                                    <Link
+                                        to={'https://dream-finder.vercel.app'}
+                                        target="_blank"
+                                        className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
+                                    >
+                                        Live Link
+                                    </Link>
+                                </button>
+                                <button className="w-full">
+                                    <Link
+                                        to={'https://github.com/taskinahmadalfaruqe/Dream-Finder'}
+                                        target="_blank"
+                                        className="flex justify-center items-center font-medium cursor-pointer text-xl duration-300 transition  mt-2 bg-common-bg p-1 w-[100%] text-whiteColor text-center rounded-md hover:bg-common-bg-hover"
+                                    >
+                                        GitHub
+                                    </Link>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                     <div
                         className="item bg-lightbg dark:bg-lightdarkbg rounded-lg p-6 dark:border-[2px] border-[#212425] flex flex-col flex-1">
                         <div className="image">

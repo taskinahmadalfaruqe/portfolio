@@ -18,7 +18,6 @@ export default {
         '2xl': '80px',
       },
     },
-
     extend: {
       backgroundImage: {
         'BG1': "url('https://i.ibb.co/z6PG6Nb/bg.jpg')",
